@@ -15,7 +15,22 @@ The visual direction combines a dark minimalist aesthetic, expressive typography
 
 ## Screenshots
 
-Screenshots of the live website will be added here.
+### Home
+
+![LLUBRA web design and development studio homepage](screenshots/home.png)
+
+### Services
+
+![LLUBRA web design and development services](screenshots/servicios.png)
+
+### Projects
+
+![LLUBRA portfolio showcasing completed web development projects](screenshots/proyectos.png)
+
+### Work Process
+
+![LLUBRA website development process and workflow](screenshots/proceso.png)
+
 
 ## My Role
 
