@@ -61,7 +61,6 @@ The work includes both the visual presentation and the supporting engineering in
 | Tailwind CSS and custom CSS | Styling foundation and centralized visual design system |
 | Vercel | Hosting and controlled production deployment |
 | Cloudflare Turnstile | Bot verification for contact submissions |
-| Vercel Firewall | Provider-backed abuse prevention |
 | Resend | Email delivery integration |
 | Google Analytics 4 | Consent-based website measurement |
 | Playwright | Browser, API and server-level automated testing |
