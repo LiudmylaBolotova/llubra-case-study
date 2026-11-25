@@ -132,22 +132,13 @@ Success is displayed only after the email provider confirms acceptance of the re
 
 ## Contact Form and Security
 
-The website includes a dedicated contact page and a reusable contact modal.
+LLUBRA provides a dedicated contact page and a reusable contact modal, both supported by shared form components and server-side processing.
 
-The server-side contact flow implements:
+The contact system includes input validation, bot verification, abuse prevention and email delivery through a protected server-side workflow.
 
-- Input normalization and validation
-- Restricted request processing
-- Cloudflare Turnstile verification
-- Honeypot-based abuse detection
-- Provider-backed rate controls
-- Guarded email delivery through Resend
-- Error handling and duplicate-submission prevention
-- Accessible field errors and submission feedback
+User feedback is designed to handle submission errors, prevent duplicate requests and preserve entered information when retrying.
 
-The form is designed to fail closed when required server configuration is unavailable.
-
-Email-provider acceptance is distinguished from confirmed inbox delivery. These safeguards reduce common submission risks without implying that automated abuse can be eliminated entirely.
+Security-sensitive implementation details and operational configurations are intentionally excluded from this public case study.
 
 ## SEO and Analytics
 
